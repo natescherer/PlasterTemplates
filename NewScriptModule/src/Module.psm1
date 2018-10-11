@@ -21,6 +21,7 @@ function New-ExampleFunction {
     .NOTES
         Detail on what the function does, if this is needed
     #>
+    
     [CmdletBinding()]
     param (
         [parameter(Mandatory=$false)]
