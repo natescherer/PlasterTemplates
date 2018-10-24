@@ -68,9 +68,6 @@
         <templateFile source='test\Module.T.ps1'
                 destination='test\${PLASTER_PARAM_ModuleName}.Tests.ps1' />
         <file condition="$PLASTER_PARAM_Editor -eq 'VSCode'"
-                source='editor\VSCode\settings.json'
-                destination='.vscode\settings.json' />
-        <file condition="$PLASTER_PARAM_Editor -eq 'VSCode'"
                 source='editor\VSCode\tasks.json'
                 destination='.vscode\tasks.json' />
         <requireModule name="Pester" minimumVersion="4.0.3"
