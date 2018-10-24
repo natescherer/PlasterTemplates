@@ -42,10 +42,14 @@
         <message>&#10;&#10;Scaffolding your PowerShell Module...&#10;&#10;&#10;</message>
         <file source='' destination='docs'/>
         <file source='' destination='src'/>
+        <file source='' destination='src\MarkdownToHtmlTemplate'/>
+        <file source='src\MarkdownToHtmlTemplate\md-template.html' destination='src\MarkdownToHtmlTemplate\md-template.html'/>
         <file source='' destination='test'/>
         <file source='' destination='out'/>
         <file source='.build.ps1' destination='${PLASTER_PARAM_ModuleName}.build.ps1'/>
         <file source='.gitignore' destination=''/>
+        <file source='appveyor.yml' destination=''/>
+        <file source='appveyordeploy.ps1' destination=''/>
         <file source='CHANGELOG.md' destination=''/>
         <file source='CONTRIBUTING.md' destination=''/>
         <file source='LICENSE' destination=''/>
